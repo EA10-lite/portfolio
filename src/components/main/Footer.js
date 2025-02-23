@@ -4,11 +4,11 @@ import { MdOutlineMailOutline, MdOutlineWhatsapp } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer className="footer bg-white rounded-t-[64px] lg:rounded-t-[132px]">
+        <footer className="footer bg-white rounded-t-[16x] md:rounded-t-[64px] lg:rounded-t-[132px]">
             <div className="container px-[16px] md:px-[24px] mx-auto">
                 <div className="top-footer-content py-[32px] md:py-[64px]">
-                    <div className="mx-auto w-[80px] md:w-[109px] h-[80px] md:h-[109px] rounded-full flex items-center justify-center mb-[24px] bg-primary">
-                        <img src="https://cdn-icons-png.flaticon.com/128/493/493881.png" className="w-[72px] object-cover h-auto" />
+                    <div className="mx-auto w-[90px] md:w-[109px] h-[90px] md:h-[109px] rounded-full flex items-center justify-center mb-[24px] bg-primary">
+                        <img src="https://cdn-icons-png.flaticon.com/128/493/493881.png" className="w-[64px] md:w-[72px] object-cover h-auto" />
                     </div>
                     <h4 className="text-center text-black text-[28px] leading-[40px] lg:text-[46px] lg:leading-[52px] mb-[32px] font-[500] max-w-[560px] mx-auto"> Tell me about your new project! </h4>
                     <div className="flex items-center gap-4 justify-center">

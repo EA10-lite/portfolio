@@ -10,7 +10,7 @@ export default function Home() {
         <div className="head">
           <div className="py-[60px]">
             <div className="w-[64px] md:w-[120px] h-[64px] md:h-[120px] flex items-center justify-center rounded-full mx-auto mb-[32px]">
-              <img src="https://cdn-icons-png.flaticon.com/128/456/456212.png" className="w-[48px] md:w-[80px] h-[48px] md:h-[80px] object-cover" />
+              <img src="https://cdn-icons-png.flaticon.com/128/456/456212.png" className="w-[64px] md:w-[80px] h-[64px] md:h-[80px] object-cover" />
             </div>
             <h1 className="text-center text-[28px] md:text-[42px] leading-[40px] md:leading-[52px] mx-auto font-[600]"> Hi, Anyigor Emmanuel <br /> Fullstack Developer </h1>
 
