@@ -1,4 +1,6 @@
 import { Navbar } from "@/components/main";
+import { LuExternalLink } from "react-icons/lu";
+
 
 export default function Home() {
   return (
@@ -7,10 +9,15 @@ export default function Home() {
         <Navbar />
         <div className="head">
           <div className="py-[60px]">
-            <div className="w-[120px] h-[120px] rounded-full border border-[2px] border-white mx-auto mb-[32px]"/>
-            <h1 className="text-center text-[42px] leading-[52px] mx-auto font-[600]"> Anyigor Emmanuel <br /> Software Developer </h1>
+            <div className="w-[64px] md:w-[120px] h-[64px] md:h-[120px] flex items-center justify-center rounded-full mx-auto mb-[32px]">
+              <img src="https://cdn-icons-png.flaticon.com/128/456/456212.png" className="w-[48px] md:w-[80px] h-[48px] md:h-[80px] object-cover" />
+            </div>
+            <h1 className="text-center text-[28px] md:text-[42px] leading-[40px] md:leading-[52px] mx-auto font-[600]"> Hi, Anyigor Emmanuel <br /> Fullstack Developer </h1>
 
-            <a href="/" className="bg-black text-white text-xs font-[600] px-[12px] py-[7px] rounded-[133.333px]"> My Projects </a>
+            <a href="/" className="bg-black text-white text-xs font-[600] px-[12px] py-[10px] rounded-[133.333px] flex items-center gap-2 justify-center w-[160px] mx-auto mt-[40px] shadow hover:bg-white hover:text-black transition-all delay-1500ms">
+              <span> My Projects</span>
+              <LuExternalLink className="text-[18px]" />
+            </a>
           </div>
         </div>
 

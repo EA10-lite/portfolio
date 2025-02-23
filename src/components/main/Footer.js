@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="mx-auto w-[80px] md:w-[109px] h-[80px] md:h-[109px] rounded-full flex items-center justify-center mb-[24px] bg-primary">
                         <img src="https://cdn-icons-png.flaticon.com/128/493/493881.png" className="w-[72px] object-cover h-auto" />
                     </div>
-                    <h4 className="text-center text-black text-[32px] leading-[44px] lg:text-[46px] lg:leading-[52px] mb-[32px] font-[500] max-w-[560px] mx-auto"> Tell me about your new project! </h4>
+                    <h4 className="text-center text-black text-[28px] leading-[40px] lg:text-[46px] lg:leading-[52px] mb-[32px] font-[500] max-w-[560px] mx-auto"> Tell me about your new project! </h4>
                     <div className="flex items-center gap-4 justify-center">
                         <a href="" className="flex items-center justify-center gap-2 rounded-[133.333px] border border-[2px] border-dark bg-black text-white text-xs px-[12px] py-[8px] w-[119px] shadow">
                             <MdOutlineMailOutline className="text-[18px]" />
@@ -24,13 +24,13 @@ const Footer = () => {
                 </div>
 
                 <div className="py-[24px] border-t border-[gainsboro]">
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-2">
                         <p className="text-xs"> &copy; {new Date().getFullYear() } All rights reserved. </p>
 
                         <div className="flex items-center gap-2 text-xs">
-                            <a href="/"> Github </a>
+                            <a href="https://github.com/EA10-lite" target="_blank" rel="noreferrer"> Github </a>
                             <span>/</span>
-                            <a href="/"> Twitter </a>
+                            <a href="https://x.com/Anyigoremmanue4" target="_blank" rel="noreferrer"> Twitter </a>
                             <span>/</span>
                             <a href="/"> LinkedIn </a>
                         </div>
