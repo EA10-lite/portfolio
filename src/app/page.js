@@ -34,7 +34,7 @@ export default function Home() {
               <div className="services-header w-[fit-content] mx-auto bg-white px-[20px] py-[8px] rounded-[133.333px] absolute top-[-20px] text-sm font-[600]"> Services</div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mt-[40px] max-w-[88%] mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mt-[40px] max-w-[88%] mx-auto">
               <div className="col-span-1">
                 <img src="https://cdn-icons-png.flaticon.com/128/13191/13191289.png" className="ml-[12px] w-[36px] h-auto object-cover mb-[16px]" />
                 <h4 className="service-header mt-[12px] font-[500] text-sm"> UI & UX </h4>

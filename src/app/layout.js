@@ -9,8 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-primary h-[100vh] w-full flex flex-col overflow-auto">
-        <div className="grow h-full">
+      <body className="bg-primary h-[100vh] w-full overflow-auto">
+        <div className="">
           {children}
         </div>
         <Footer />
