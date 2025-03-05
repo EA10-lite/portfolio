@@ -5,6 +5,8 @@ import { FaReact, FaGitAlt, FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiTypescript, SiJavascript, SiMongodb} from "react-icons/si";
 
+import project_img_1 from "@/assets/aerosoft.png";
+
 
 const Skill = ({ title, Icon, color }) => {
   return (
@@ -25,24 +27,31 @@ export default function Home() {
             <Navbar />
           </div>
 
-          <div className="container mx-auto">
-            <div className="py-[60px]">
-              <div className="w-[88px] md:w-[120px] h-[88px] md:h-[120px] flex items-center justify-center rounded-full mx-auto mb-[20px] md:mb-[32px]">
-                <img src="https://cdn-icons-png.flaticon.com/128/149/149071.png" className="w-[72px] md:w-[80px] h-[72px] md:h-[80px] object-cover" />
+          <div className="container mx-auto p-[24px] py-[100px]">
+            <div className="flex items-start md:items-center gap-1 flex-col md:flex-row md:gap-3">
+              <div className="font-[600] text-base leading-[32px]"> Your go-to Expert for: </div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-[133.333px] bg-black text-white px-[12px] py-[6px] text-xs"> Websites </span>
+                <span className="rounded-[133.333px] bg-black text-white px-[12px] py-[6px] text-xs"> Mobile Apps </span>
+                <span className="rounded-[133.333px] bg-black text-white px-[12px] py-[6px] text-xs"> Backend Services </span>
               </div>
-              <h1 className="text-center text-[28px] md:text-[42px] leading-[40px] md:leading-[52px] mx-auto font-[600]"> Hi, Anyigor Emmanuel <br /> Fullstack Developer </h1>
+            </div>
 
-              <a href="/" className="bg-black text-white text-xs font-[600] px-[12px] py-[10px] rounded-[133.333px] flex items-center gap-2 justify-center w-[160px] mx-auto mt-[20px] md:mt-[40px] shadow hover:bg-white hover:text-black transition-all delay-1500ms">
-                <span> My Projects</span>
-                <LuExternalLink className="text-[18px]" />
-              </a>
+            <h2 className="mt-[24px] mb-[40px] text-[32px] leading-[44px] lg:text-[64px] lg:leading-[80px] font-[600]"> Fullstack Delevoper for Brands, Companies and Startups </h2>
+
+            <div className="md:w-[50%]">
+              <h4 className="text-base font-[600]"> Whoami?? </h4>
+              <p className="lg:text-lg lg:leading-[32px] font-[500]">
+                Hello, My name is Emmanuel Anyigor , I’m a software developer with roughly 5years experience building software architectures and design.
+              </p>
             </div>
           </div>
+
         </div>
 
         <div className="tools py-[24px] md:py-[80px]">
           <div className="container mx-auto">
-            <div className="flex items-center justify-center gap-4 overflow-auto">
+            <div className="flex items-center justify-center gap-4 overflow-auto hidden">
               <Skill title={"Reactjs"} Icon={FaReact} color="#5ed3fe" />
               <Skill title={"Nodejs"} Icon={FaNodeJs} color="#68a063" />
               <Skill title={"Javascript"} Icon={SiJavascript} color="#edd718" />
